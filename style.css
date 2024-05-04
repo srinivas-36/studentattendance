@@ -1,0 +1,276 @@
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      
+      h1,
+      h3 {
+        font-size: 34px;
+        color: red;
+      }
+      table {
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+      }
+      table td a {
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+      }
+      .top {
+        display: flex;
+        width: 100%;
+      }
+      .top .heading {
+        width: 60%;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      .top .heading h1{
+        margin-bottom: 10px;
+      }
+      .top .heading h2{
+        font-size: 25px;
+        color: white;
+      }
+      .top .login {
+        padding: 10px;
+        width: 40%;
+        display: flex;
+        margin: 10px;
+      }
+      .top .login .input {
+        margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+      }
+      .top .login .input label {
+        margin: 5px;
+        font-size: 20px;
+        color:white;
+      }
+      .top .login .input input {
+        padding: 8px;
+        margin: 5px 5px;
+        border: 1px solid black;
+        border-radius: 5px;
+      }
+      .top .login button {
+        padding: 10px;
+        margin-bottom: 10px;
+        background: none;
+        border: 2px solid #06af14;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        cursor: pointer;
+        outline: none;
+      }
+      .top .login button:hover {
+        background-color: #06af14;
+        color: white;
+      }
+      .top .login p{
+        color: white;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .top .login a{
+        color: white;
+        text-decoration: none;
+      }
+      .top .login a:hover{
+        color: red;
+      }
+      .dashboard {
+        height: 85vh;
+      }
+
+      .background {
+        background: rgba(0, 0, 0, 0.7) url("build2.jpg");
+        background-size: cover;
+        
+        overflow: hidden;
+        background-blend-mode: darken;
+      }
+      .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 50%;
+        margin: auto;
+        height: 80%;
+      }
+      .firsthalf {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .secondhalf {
+        margin-left: 20px;
+        width: 20%;
+      }
+      .secondhalf img {
+        height: 350px;
+        width: 350px;
+        margin: auto;
+        display: block;
+        border: 3px solid white;
+        border-radius: 50px;
+      }
+      .text-big {
+        padding: 15px;
+        font-size: 48px;
+      }
+      .text-big span{
+        color: rgba(235, 29, 91, 0.874);
+      }
+      .text-small {
+        padding: 15px;
+        font-size: 16px;
+      }
+      label{
+        color: white;
+      }
+      .main{
+        display: flex;
+        padding: 0;
+        margin: 0;
+      }
+      .main .leftsec{
+        height: 100vh;
+        background-color: #06af14;
+        width: 30%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        
+        /* margin: 10px; */
+      }
+      .main .leftsec label{
+        text-align: center;
+        font-size: 34px;
+        margin-bottom: 30px;
+      }
+      .main .leftsec select{
+        width: 90%;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 10px;
+      }
+      .main .leftsec select option{
+        height: 30vh;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .main .rightsec{
+        width: 100%;
+      }
+
+      .mainbox .first h1{
+        width: 90%;
+        padding: 13px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .mainbox .select {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .mainbox .select select{
+        width: 45%;
+        padding: 10px;
+        margin: 10px;
+      }
+      .mainbox .select .btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .mainbox .select input{
+        padding: 10px;
+        margin: 10px;
+        width: 100px;
+      }
+      .mainbox .select .btn button{
+        width: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        cursor: pointer;
+        margin: 10px;
+        margin-bottom: 20px;
+      }
+      .mainbox .hidden{
+        display: none;
+      }
+      table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        
+      }
+      table tr th{
+        padding: 10px;
+      }
+      table tr td{
+        padding: 10px;
+      }
+
+      .mainbox .post .btn{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .mainbox .post .btn button{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: 1px solid black;
+      }
+      
+      .mainbox .first{
+        background-color: rgb(228, 160, 34);
+        display: flex;
+      }
+      .mainbox .first .btn-sm{
+        width: 100px;
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid #06af14;
+  border-radius: 9px;
+  background: none;
+  cursor: pointer;
+  color: white;
+      }
+      .mainbox .first .btn-sm:hover{
+        background-color: #06af14;
+        color: white;
+      }
+
+      .mainbox .post .attendance .marks{
+        width: 50px;
+        padding: 8px;
+      }
+.hidden{
+  display: none;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    padding: 28px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="leftsec">
+        <label for="Exam">Choose a Choice</label>
+        <select name="Exam Result" id="Exam" onchange="loadPage()">
+          <option value="" hidden>Select the Choice</option>
+          <option value="attendance.php">Post Attendance</option>
+          <option value="Exam.php">Post Exam Marks</option>
+        </select>
+        <!-- <label for="attendance">Choose a Choice</label>
+        <select name="Attendance" id="Attendance" onchange="loadPage()">
+          <option value="" hidden>Attendance</option>
+        </select> -->
+      </div>
+      <div class="rightsec" name="right" id="form"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
